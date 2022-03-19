@@ -2,8 +2,9 @@
 
 java main.Program -{opção} "<nome-arquivo>he"
   
-  Opções: run - Executa o codigo helang do arquivo.
-          gen - Gera o código em C que gera o mesmo resultado quando compilado.
+Opções: 
+* run - Executa o codigo helang do arquivo.
+* gen - Gera o código em C que gera o mesmo resultado quando compilado.
   
   O Compilador é dado pela gramática:
   
