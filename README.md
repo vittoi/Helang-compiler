@@ -6,9 +6,9 @@ java main.Program -{opção} "<nome-arquivo>he"
           gen - Gera o código em C que gera o mesmo resultado quando compilado.
   
   O Compilador é dado pela gramática:
-        - Program ::= VarList { Stat }
-        - VarList ::= { "var" Int Ident ";" }
-        - Stat ::= AssignStat | IfStat | ForStat | PrintStat |
+        * Program ::= VarList { Stat }
+        * VarList ::= { "var" Int Ident ";" }
+        * Stat ::= AssignStat | IfStat | ForStat | PrintStat |
         - PrintlnStat | WhileStat
         - AssignStat ::= Ident "=" Expr ";"
         - IfStat ::= "if" Expr StatList [
