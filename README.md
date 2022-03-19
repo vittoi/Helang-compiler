@@ -2,11 +2,11 @@
 
 java main.Program -{opção} "<nome-arquivo>he"
   
-** Opções: **
+__ Opções: __
 * run - Executa o codigo helang do arquivo.
 * gen - Gera o código em C que gera o mesmo resultado quando compilado.
   
-** O Compilador é dado pela gramática: **
+__ O Compilador é dado pela gramática: __
   
 * Program ::= VarList { Stat }
 * VarList ::= { "var" Int Ident ";" }
