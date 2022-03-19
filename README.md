@@ -1,6 +1,6 @@
 # Helang-compiler
 
-java main.Program -{opção} "<nome-arquivo>he"
+java main.Program -{opção} "nome-arquivo.he"
   
 __Opções:__
 * run - Executa o codigo helang do arquivo.
